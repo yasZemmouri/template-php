@@ -2,9 +2,11 @@
 <html lang="en">
 <!-- Head -->
 <?php
+//Page Configuration
+$title1="title";
 $h1 = "Model United Nations Simulation";
 $h2='';
-$title = ($h1 && $h2) ? "$h1. $h2" : ($h1 ? $h1 : ucfirst(basename($_SERVER['REQUEST_URI'])));
+$title2 = ($h1 && $h2) ? "$h1. $h2" : ($h1 ? $h1 : ucfirst(basename($_SERVER['REQUEST_URI'])));
 include 'includes/head.php'; ?><!-- End Head -->
 <body>
 <?php include 'includes/navbar.php'; ?><!-- End Header -->

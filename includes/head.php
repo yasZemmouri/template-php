@@ -1,10 +1,10 @@
 <head>
 <!-- The basename() function takes a path as its parameter and returns the last component of the path, which is typically the filename -->
 <!-- ucfirst: upper case first -->
-    <title>Grandmun - <?php echo 
+    <title><?php echo $title1 . " - " .  
     // ucfirst(basename($_SERVER['REQUEST_URI']));
-    $title; 
-    
+    $title2;  
+
     ?></title>
     <!--===== Meta =====-->
     <meta charset="utf-8">
